@@ -1,0 +1,63 @@
+doctype html
+html(lang="ru-RU")
+	head
+		link(rel="stylesheet", href="css/libs.css")
+		link(rel="stylesheet", href="css/main_global.css")
+		title Template
+	body
+		header.header
+			.container
+				.row
+					.col-md-6
+						button.btn.btn__theme-standart Стандартная тема
+						button.btn.btn__theme-dark Темная тема
+					.col-md-6
+						input.formstyler(type="file")
+					.col-md-6
+						.header__checkboxes
+							input(type="checkbox")
+							input(type="checkbox")
+							input(type="checkbox")
+							input(type="checkbox")
+							input(type="checkbox")
+					.col-md-6
+						select.header__select
+							option(value="") Пункт 1
+							option(value="") Пункт 2
+							option(value="") Пункт 3
+							option(value="") Пункт 4
+							option(value="") Пункт 5
+							option(value="") Пункт 6
+							option(value="") Пункт 7
+							option(value="") Пункт 8
+							option(value="") Пункт 9
+							option(value="") Пункт 10
+						input.input__theme-standart(type="text", placeholder="Введите текст")
+					.col-md-6
+						.galerry
+							a.image-popup-no-margins(href="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg")
+								img(src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg", alt="", width="107", height="75")
+					.col-md-6
+						a.popup-with-zoom-anim(href="#small-dialog") Open with fade-zoom animation
+						br
+						#small-dialog.zoom-anim-dialog.mfp-hide
+							h1 Dialog example
+							p This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.
+					.col-md-6
+						.slick-slider
+							div
+								img(src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg", alt="", height="400")
+							div
+								img(src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg", alt="", height="400")
+							div
+								img(src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg", alt="", height="400")
+							div
+								img(src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg", alt="", height="400")
+							div
+								img(src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg", alt="", height="400")
+
+
+
+
+
+		script(src="js/main.js")
