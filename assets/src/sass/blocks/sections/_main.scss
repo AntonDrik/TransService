@@ -1,0 +1,25 @@
+@import "main-slider";
+@import "sertificats";
+@import "widget";
+@import "advantages";
+@import "about";
+.section-padding{
+    padding-top: 60px;
+}
+
+.section-title{
+  padding-left: 40px;
+  margin-bottom: 55px;
+  position: relative;
+  z-index: 99;
+    &:before{
+      content: '';
+      width: 30px;
+      height: 4px;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      transform: translate(0,-50%);
+      background-color: #d61900;
+    }
+}

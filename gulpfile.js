@@ -63,6 +63,7 @@ gulp.task('browser-sync', function () {
 		notify: false,
 		tunnel: true,
 	    host: 'localhost',
+		browser: 'chromium-browser',
 	    port: 9000,
 	    logPrefix: "Draik"
 	})
@@ -108,9 +109,9 @@ gulp.task('css-libs', function(){
 // Сборка JS
 gulp.task('js', function(){
 	return gulp.src(path.src.js)
-	.pipe(plumber())
+	// .pipe(plumber())
 	.pipe(rigger())
-	.pipe(uglify())
+	// .pipe(uglify())
 	.pipe(gulp.dest(path.dist.js))
 	.pipe(browserSync.reload({stream: true}));
 });
@@ -163,9 +164,6 @@ gulp.task('build',
     )
   )
 );
-
-
-
 
 gulp.task('watch', function (){
 	gulp.watch(path.watch.html, gulp.parallel('html'));
