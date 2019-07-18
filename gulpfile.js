@@ -63,7 +63,7 @@ gulp.task('browser-sync', function () {
 		notify: false,
 		tunnel: true,
 	    host: 'localhost',
-		browser: 'chromium-browser',
+		// browser: 'chromium-browser',
 	    port: 9000,
 	    logPrefix: "Draik"
 	})
