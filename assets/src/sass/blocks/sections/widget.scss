@@ -89,51 +89,40 @@
 }
 
 .clock .inner .hand.hour {
-  height: 90px;
-  margin-top: -18px;
+  height: 38px;
+  margin-top: -9px;
   -webkit-transform: rotate(0deg) translate(-50%, -50%);
   transform: rotate(0deg) translate(-50%, -50%);
   -webkit-transform-origin: 0 27.2727272727px;
-  transform-origin: 0 18px;
+  transform-origin: 0 9px;
 }
 
 .clock .inner .hand.minute {
-  height: 120px;
-  margin-top: -18px;
+  height: 50px;
+  margin-top: -14px;
   -webkit-transform: rotate(0deg) translate(-50%, -50%);
   transform: rotate(0deg) translate(-50%, -50%);
   -webkit-transform-origin: 0 27.2727272727px;
-  transform-origin: 0 18px;
+  transform-origin: 0 14px;
 }
 
-//.clock .inner .hand.second {
-//  width: 1.9459459459px;
-//  height: 120px;
-//  background-color: #ec231e;
-//  margin-top: -36px;
-//  -webkit-transform: rotate(0deg) translate(-50%, -50%);
-//  transform: rotate(0deg) translate(-50%, -50%);
-//  -webkit-transform-origin: 0 36px;
-//  transform-origin: 0 36px;
-//}
+.clock .inner .hand.minute::before{
+ content: "";
+ display: inherit;
+ position: inherit;
+ left: inherit;
+ background-color: inherit;
+ border-radius: 100%;
+ -webkit-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
 
-//.clock .inner .hand.second::before{
-//  content: "";
-//  display: inherit;
-//  position: inherit;
-//  left: inherit;
-//  background-color: inherit;
-//  border-radius: 100%;
-//  -webkit-transform: translate(-50%, -50%);
-//  transform: translate(-50%, -50%);
-//}
-//
-//.clock .inner .hand.second::before {
-//  top: 94.7368421053px;
-//  width: 10px;
-//  height: 10px;
-//  box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, 0.15);
-//}
+.clock .inner .hand.minute::before {
+ top: 39.5px;
+ width: 10px;
+ height: 10px;
+ box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, 0.15);
+}
 
 $clockSize: 120px;
 $clockPadding: ($clockSize / 14.4);
@@ -144,16 +133,12 @@ $innerBorderWidth: ($clockSize / 150);
   position: absolute;
   top: ($innerBorderWidth - 23);
   left: 50%;
-  width: ($clockSize / 185);
-  height: ($clockSize / 40);
+  width: ($clockSize / 90);
+  height: ($clockSize / 10);
   background-color: #181818;
   transform: rotate(0deg) translateX(-50%);
   transform-origin: 0 ((($clockSize - ($clockPadding * 2)) / 2) - ($innerBorderWidth * 3));
-  &:nth-child(5n-4){
-    width: ($clockSize / 90);
-    height: ($clockSize / 18);
-  }
-  @for $i from 1 through 11{
+  @for $i from 1 through 12{
     &:nth-child(#{$i}){
       transform: rotate(#{( 30 * $i)}deg) translateX(-50%);
     }

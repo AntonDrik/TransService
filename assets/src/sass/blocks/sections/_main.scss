@@ -1,8 +1,11 @@
-@import "main-slider";
-@import "sertificats";
-@import "widget";
-@import "advantages";
-@import "about";
+@import "index/main-slider";
+@import "index/sertificats";
+@import "index/widget";
+@import "index/advantages";
+@import "index/about";
+@import "contacts/contacts";
+@import "contacts/callback";
+
 .section-padding{
     padding-top: 60px;
 }
@@ -23,3 +26,21 @@
       background-color: #d61900;
     }
 }
+
+.breadcrumbs{
+  margin-top: 20px;
+  &__link{
+      color: $color-red;
+  }
+  & a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+.hidden{
+    display: none;
+  }

@@ -42,7 +42,10 @@ class Clock {
 
         degree                = this.percentageToDegree(percentage);
         hand.style.transform  = `rotate(${degree}deg) translate(-50%, -50%)`;
-        this.time.innerHTML = `${date.getHours()}:${date.getMinutes()}: ${date.getSeconds()}`;
+        let min = date.getMinutes(), sec = date.getSeconds();
+        if (min < 10) min = '0'+min;
+        if (sec < 10) sec = '0'+sec; 
+        this.time.innerHTML = `${date.getHours()}:${min}:${sec}`;
     }
 
     numberToPercentage(number = 0, max = 60) {
@@ -52,28 +55,7 @@ class Clock {
     percentageToDegree(percentage = 0) {
         return (percentage * 360) / 100;
     }
-
 }
-
-let vancouver = new Clock({
-    timeZone: 'America/Vancouver',
-    HTML: document.querySelector('.clock-vancouver')
-});
-
-let newYork = new Clock({
-    timeZone: 'America/New_York',
-    HTML: document.querySelector('.clock-newyork')
-});
-
-let london = new Clock({
-    timeZone: 'Europe/London',
-    HTML: document.querySelector('.clock-london')
-});
-
-let tokyo = new Clock({
-    timeZone: 'Asia/Tokyo',
-    HTML: document.querySelector('.clock-tokyo')
-});
 
 $(document).ready(function() {
 
@@ -131,5 +113,38 @@ $(document).ready(function() {
             duration: 300
         }
     });
+
+    if ($('.widget').length){
+        let vancouver = new Clock({
+            timeZone: 'America/Vancouver',
+            HTML: document.querySelector('.clock-vancouver')
+        });
+
+        let newYork = new Clock({
+            timeZone: 'America/New_York',
+            HTML: document.querySelector('.clock-newyork')
+        });
+
+        let london = new Clock({
+            timeZone: 'Europe/London',
+            HTML: document.querySelector('.clock-london')
+        });
+
+        let tokyo = new Clock({
+            timeZone: 'Asia/Tokyo',
+            HTML: document.querySelector('.clock-tokyo')
+        });
+    }
+
+    if($('#form-message').length){
+        $('#form-message').on('click', function(){
+            $(this).next()[0].classList.add('hidden')
+        });
+        $('#form-message').on('blur', function(){
+            if(!$.trim($(this).val()))
+            $(this).next()[0].classList.remove('hidden')
+        });
+    }
+
 });
 
