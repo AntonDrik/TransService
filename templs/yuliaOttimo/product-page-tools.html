@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <title>Ottimo-tools</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid-validation-modal-tabs-print.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/fancySelect.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+    <div class="container header-container">
+        <a href="index.html" class="header-logo">
+            <img src="img/logo.png" alt="" class="header-logo-img">
+        </a>
+        <div class="header-contacts">
+            <div class="header-contacts-in header-contacts-in-1">
+                <p class="header-contacts-item header-contacts-item-tel">
+                    <a href="tel:88126281326" class="header-contacts-item-link">8 (812) 628-13-26</a> г.&nbsp;С.Петербург
+                </p>
+                <p class="header-contacts-item">
+                    <a href="tel:84951881326" class="header-contacts-item-link">8 (495) 188-13-26</a> г.&nbsp;Москва
+                </p>
+            </div>
+            <div class="header-contacts-in header-contacts-in-2">
+                <p class="header-contacts-item header-contacts-item-address">
+                    г.&nbsp;С.Петербург, пр.&nbsp;Культуры 44А, оф&nbsp;302
+                </p>
+                <a href="mailto:sales@ottimo-tools.ru" class="header-contacts-item header-contacts-item-email"><span>sales@ottimo-tools.ru</span></a>
+            </div>
+        </div>
+        <div class="header-icons-wrapper">
+            <a href="favorites.html" class="header-icons-link header-icons-link-favorites" title="Избранное"></a>
+            <a href="cart.html" class="header-icons-link header-icons-link-cart" title="Корзина"></a>
+            <a href="#" class="header-icons-link header-icons-link-request-call" title="Заказать звонок" data-href="#request-call-popup"
+               data-toggle="modal" data-target="#request-call-popup"></a>
+        </div>
+    </div>
+    <nav id="js-menu-wrapper" class="header-menu-wrapper">
+        <div class="container header-menu-container">
+            <button id="js-menu-btn" class="header-menu-btn" type="button">
+                <span class="header-menu-btn-item header-menu-btn-item-1"></span>
+                <span class="header-menu-btn-item header-menu-btn-item-2"></span>
+                <span class="header-menu-btn-item header-menu-btn-item-3"></span>
+            </button>
+            <ul id="js-menu" class="header-menu">
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="text-page.html" class="header-menu-link">О компании</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="catalog-section-equipment.html" class="header-menu-link">Оборудование</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="catalog-equipment.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="catalog-equipment.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="catalog-section-tools.html" class="header-menu-link">Инструменты</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="catalog-tools.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="catalog-tools.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item">
+                    <a href="partners.html" class="header-menu-link">Наши партнеры</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="projects.html" class="header-menu-link">Проекты</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="stock.html" class="header-menu-link">Акции</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="news.html" class="header-menu-link">Новости</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="articles.html" class="header-menu-link">Статьи</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="contacts.html" class="header-menu-link">Контакты</a>
+                </li>
+            </ul>
+            <div class="header-menu-icons-wrapper">
+                <a href="favorites.html" class="header-icons-link header-icons-link-favorites" title="Избранное"></a>
+                <a href="cart.html" class="header-icons-link header-icons-link-cart" title="Корзина"></a>
+                <a href="#" class="header-icons-link header-icons-link-request-call" title="Заказать звонок" data-href="#request-call-popup"
+                   data-toggle="modal" data-target="#request-call-popup"></a>
+                <a href="" class="header-menu-search" title="Поиск"></a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="breadcrumbs">
+    <div class="container">
+        <a href="index.html" class="breadcrumbs-link">Главная</a>
+        <span class="breadcrumbs-current">Название товара</span>
+    </div>
+</div>
+<section class="section-inner">
+    <div class="container">
+        <h1 class="section-title section-title-green"><span>Название товара</span></h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <div id="js-product-page-slider-big" class="product-page-slider-big">
+                    <a rel="gallery-1" href="./img/img-gallery-big.jpg" class="js-photo-gallery product-page-slider-big-slide">
+                        <div class="product-photo-big-wrapper">
+                            <img src="./img/img-product-slider.jpg" alt="" class="product-photo-big">
+                        </div>
+                    </a>
+                    <a rel="gallery-1" href="./img/img-gallery-big.jpg" class="js-photo-gallery product-page-slider-big-slide">
+                        <div class="product-photo-big-wrapper">
+                            <img src="./img/img-product-slider.jpg" alt="" class="product-photo-big">
+                        </div>
+                    </a>
+                    <a rel="gallery-1" href="./img/img-gallery-big.jpg" class="js-photo-gallery product-page-slider-big-slide">
+                        <div class="product-photo-big-wrapper">
+                            <img src="./img/img-product-slider.jpg" alt="" class="product-photo-big">
+                        </div>
+                    </a>
+                </div>
+                <div id="js-product-page-slider-small" class="product-page-slider-small slider-green">
+                    <div>
+                        <div class="product-photo-small-wrapper">
+                            <img src="./img/img-product-slider-small.jpg" alt="" class="product-photo-small">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-photo-small-wrapper">
+                            <img src="./img/img-product-slider-small.jpg" alt="" class="product-photo-small">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-photo-small-wrapper">
+                            <img src="./img/img-product-slider-small.jpg" alt="" class="product-photo-small">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-photo-small-wrapper">
+                            <img src="./img/img-product-slider-small.jpg" alt="" class="product-photo-small">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 product-page-info-wrapper">
+                <div class="product-page-info">
+                    <a href="partner-page.html" class="product-page-info-item">
+                        <img src="img/partner-logo.jpg" alt="" class="product-page-info-item-logo">
+                    </a>
+                    <img src="img/flag.jpg" alt="" class="product-page-info-item product-page-info-item-flag">
+                    <a href="" class="product-page-info-item product-page-info-item-site-link" target="_blank">Ссылка на сайт</a>
+                </div>
+                <table class="product-page-characteristics-table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">
+                                <h2 class="article-title article-title-small">Характеристики:</h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="product-page-characteristics-table-title">Тип инструмента:</p>
+                            </td>
+                            <td class="product-page-characteristics-table-value-td">Значение</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="product-page-characteristics-table-title">Тип крепления инструмента: </p>
+                            </td>
+                            <td class="product-page-characteristics-table-value-td">Значение</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="product-page-characteristics-table-title">Материал:</p>
+                            </td>
+                            <td class="product-page-characteristics-table-value-td">Значение</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="product-page-characteristics-table-title">Тип закалки:</p>
+                            </td>
+                            <td class="product-page-characteristics-table-value-td">Значение</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="product-page-characteristics-table-title">Полезная высота:</p>
+                            </td>
+                            <td class="product-page-characteristics-table-value-td">Значение</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="product-page-characteristics-table-title">Угол кончика пуансона:</p>
+                            </td>
+                            <td class="product-page-characteristics-table-value-td">Значение</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="product-page-characteristics-table-title">Радиус кончика пуансона:</p>
+                            </td>
+                            <td class="product-page-characteristics-table-value-td">Значение</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="product-page-characteristics-table-title">Максимальная удельная нагрузка:</p>
+                            </td>
+                            <td class="product-page-characteristics-table-value-td">Значение</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row product-page-block">
+            <div class="col-lg-6">
+                <p class="product-page-lineup"><strong>Артикул: </strong>12345678</p>
+                <div class="product-page-description">
+                    <h2 class="article-title-small article-title product-page-description-title">Описание:</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card card-decorated docs-card">
+                    <h2 class="article-title article-title-small article-title-green"><span>Файлы и каталоги</span></h2>
+                    <p class="ico-text ico-text-green pdf"><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla
+                        pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.</a></p>
+                    <p class="ico-text ico-text-green doc"><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla
+                        pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.</a></p>
+                    <p class="ico-text ico-text-green doc"><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla
+                        pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="product-page-block">
+            <h2 class="article-title article-title-small">Секционность:</h2>
+            <form id="sectionalism-form" class="sectionalism-form table-wrapper">
+                <table class="sectionalism-table">
+                    <thead>
+                        <tr>
+                            <th class="sectionalism-table-type-td">Тип секции</th>
+                            <th class="sectionalism-table-general-length-td">Общ. длина</th>
+                            <th class="sectionalism-table-length-td">Длина с&nbsp;расшифровкой</th>
+                            <th class="sectionalism-table-weight-td">Масса секции</th>
+                            <th class="sectionalism-table-img-td">Изображение</th>
+                            <th class="sectionalism-table-section-count-td">Количество секций</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input id="section-type-1" type="checkbox" name="section-type-1" class="sectionalism-table-type-checkbox">
+                                <label for="section-type-1" class="sectionalism-table-type-label">Тип 1 <span>456</span></label>
+                            </td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>
+                                <img src="img/img-table-section.png" alt="">
+                            </td>
+                            <td>
+                                <div class="count-input-wrapper">
+                                    <input type="text" class="count-input form-control" value="1">
+                                    <button class="count-btn count-btn-plus count-btn-plus-green" type="button"></button>
+                                    <button class="count-btn count-btn-minus count-btn-minus-green" type="button"></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="section-type-2" type="checkbox" name="section-type-1" class="sectionalism-table-type-checkbox">
+                                <label for="section-type-2" class="sectionalism-table-type-label">Тип 1 <span>456</span></label>
+                            </td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>
+                                <img src="img/img-table-section.png" alt="">
+                            </td>
+                            <td>
+                                <div class="count-input-wrapper">
+                                    <input type="text" class="count-input form-control" value="1">
+                                    <button class="count-btn count-btn-plus count-btn-plus-green" type="button"></button>
+                                    <button class="count-btn count-btn-minus count-btn-minus-green" type="button"></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <div class="product-page-btns-bar product-page-btns-bar-big">
+            <button class="product-page-favorites-btn favorites-btn favorites-btn-green"></button>
+            <a href="" class="btn btn-big btn-green btn-block product-page-btn" data-href="#request-popup" data-toggle="modal"
+               data-target="#request-popup">Отправить заявку</a>
+            <a href="" class="btn btn-big btn-white btn-white-green btn-block product-page-btn">Добавить в&nbsp;заказ</a>
+        </div>
+        <div class="product-page-block">
+            <h2 class="article-title article-title-small">Типы Хорна:</h2>
+            <div class="horn-types-block">
+                <div class="horn-types-item-wrapper">
+                    <div class="horn-types-item">
+                        <div class="horn-types-item-img-wrapper">
+                            <img src="img/img-horn.png" alt="">
+                        </div>
+                        <h6 class="horn-types-item-title">Lorem ipsum dolor sit amet, </h6>
+                        <p class="horn-types-item-text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div class="horn-types-item-wrapper">
+                    <div class="horn-types-item">
+                        <div class="horn-types-item-img-wrapper">
+                            <img src="img/img-horn.png" alt="">
+                        </div>
+                        <h6 class="horn-types-item-title">Lorem ipsum dolor sit amet, </h6>
+                        <p class="horn-types-item-text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div class="horn-types-item-wrapper">
+                    <div class="horn-types-item">
+                        <div class="horn-types-item-img-wrapper">
+                            <img src="img/img-horn.png" alt="">
+                        </div>
+                        <h6 class="horn-types-item-title">Lorem ipsum dolor sit amet, </h6>
+                        <p class="horn-types-item-text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div class="horn-types-item-wrapper">
+                    <div class="horn-types-item">
+                        <div class="horn-types-item-img-wrapper">
+                            <img src="img/img-horn.png" alt="">
+                        </div>
+                        <h6 class="horn-types-item-title">Lorem ipsum dolor sit amet, </h6>
+                        <p class="horn-types-item-text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div class="horn-types-item-wrapper">
+                    <div class="horn-types-item">
+                        <div class="horn-types-item-img-wrapper">
+                            <img src="img/img-horn.png" alt="">
+                        </div>
+                        <h6 class="horn-types-item-title">Lorem ipsum dolor sit amet, </h6>
+                        <p class="horn-types-item-text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-page-block">
+            <h2 class="article-title article-title-small">U-профиль:</h2>
+            <div class="table-wrapper">
+                <table class="u-profile-table">
+                    <tbody>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td rowspan="3" colspan="3" class="u-profile-table-img-cell">
+                                <img src="img/img-u-profile-table.png" alt="">
+                            </td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td class="active"><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                        <tr>
+                            <th>Значение</th>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                            <td><div class="u-profile-table-check"></div></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                            <th><p>Значение</p></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <div class="product-page-block">
+            <h2 class="article-title article-title-small">Тип модификации:</h2>
+            <div class="modification-type-item">
+                <a href="img/img-modification-type.png" class="modification-type-item-img-wrapper js-review-gallery">
+                    <img src="img/img-modification-type.png" alt="">
+                </a>
+                <div class="modification-type-item-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                </div>
+            </div>
+            <div class="modification-type-item">
+                <a href="img/img-modification-type.png" class="modification-type-item-img-wrapper js-review-gallery">
+                    <img src="img/img-modification-type.png" alt="">
+                </a>
+                <div class="modification-type-item-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                </div>
+            </div>
+            <div class="modification-type-item">
+                <a href="img/img-modification-type.png" class="modification-type-item-img-wrapper js-review-gallery">
+                    <img src="img/img-modification-type.png" alt="">
+                </a>
+                <div class="modification-type-item-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="product-page-share share">
+            <h4 class="share-title">Поделиться в соц. сетях:</h4>
+            <a href="" class="share-link share-link-green share-link-vk"></a>
+            <a href="" class="share-link share-link-green share-link-fb"></a>
+            <a href="" class="share-link share-link-green share-link-inst"></a>
+            <a href="" class="share-link share-link-green share-link-tw"></a>
+            <a href="" class="share-link share-link-green share-link-ok"></a>
+        </div>
+    </div>
+</section>
+<section class="section-inner section-slider">
+    <div class="container">
+        <h2 class="section-title section-title-green"><span>Похожие товары</span></h2>
+        <div class="js-goods-slider goods-slider slider-green slider-default">
+            <div>
+                <div class="card card-slider product-card product-card-tools">
+                    <a href="product-page-tools.html" class="product-card-img-wrapper">
+                        <img src="img/img-product-card-tools.jpg" alt="">
+                    </a>
+                    <div class="product-card-links">
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <h6
+                                class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                        <p class="product-card-vendor-code">
+                            <strong>Артикул: </strong> 123456789
+                        </p>
+                        <div class="product-card-characteristics">
+                            <p><strong>Основные характеристики:</strong></p>
+                            <p>Тип крепления: <span>значение</span></p>
+                            <p>Угол кончика пуасона: <span>значение</span></p>
+                            <p>Полезная высота: <span>значение</span></p>
+                        </div>
+                        <div class="product-card-btns-bar">
+                            <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                            <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                    title="Избранное"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card-slider product-card product-card-tools">
+                    <a href="product-page-tools.html" class="product-card-img-wrapper">
+                        <img src="img/img-product-card-tools.jpg" alt="">
+                    </a>
+                    <div class="product-card-links">
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <h6
+                                class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                        <p class="product-card-vendor-code">
+                            <strong>Артикул: </strong> 123456789
+                        </p>
+                        <div class="product-card-characteristics">
+                            <p><strong>Основные характеристики:</strong></p>
+                            <p>Тип крепления: <span>значение</span></p>
+                            <p>Угол кончика пуасона: <span>значение</span></p>
+                            <p>Полезная высота: <span>значение</span></p>
+                        </div>
+                        <div class="product-card-btns-bar">
+                            <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                            <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                    title="Избранное"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card-slider product-card product-card-tools">
+                    <a href="product-page-tools.html" class="product-card-img-wrapper">
+                        <img src="img/img-product-card-tools.jpg" alt="">
+                    </a>
+                    <div class="product-card-links">
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <h6
+                                class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                        <p class="product-card-vendor-code">
+                            <strong>Артикул: </strong> 123456789
+                        </p>
+                        <div class="product-card-characteristics">
+                            <p><strong>Основные характеристики:</strong></p>
+                            <p>Тип крепления: <span>значение</span></p>
+                            <p>Угол кончика пуасона: <span>значение</span></p>
+                            <p>Полезная высота: <span>значение</span></p>
+                        </div>
+                        <div class="product-card-btns-bar">
+                            <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                            <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                    title="Избранное"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card-slider product-card product-card-tools">
+                    <a href="product-page-tools.html" class="product-card-img-wrapper">
+                        <img src="img/img-product-card-tools.jpg" alt="">
+                    </a>
+                    <div class="product-card-links">
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <h6
+                                class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                        <p class="product-card-vendor-code">
+                            <strong>Артикул: </strong> 123456789
+                        </p>
+                        <div class="product-card-characteristics">
+                            <p><strong>Основные характеристики:</strong></p>
+                            <p>Тип крепления: <span>значение</span></p>
+                            <p>Угол кончика пуасона: <span>значение</span></p>
+                            <p>Полезная высота: <span>значение</span></p>
+                        </div>
+                        <div class="product-card-btns-bar">
+                            <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                            <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                    title="Избранное"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card-slider product-card product-card-tools">
+                    <a href="product-page-tools.html" class="product-card-img-wrapper">
+                        <img src="img/img-product-card-tools.jpg" alt="">
+                    </a>
+                    <div class="product-card-links">
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                            </div>
+                        </div>
+                        <div class="product-card-links-item">
+                            <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                            <div class="product-card-links-item-tooltip">
+                                <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <h6
+                                class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                        <p class="product-card-vendor-code">
+                            <strong>Артикул: </strong> 123456789
+                        </p>
+                        <div class="product-card-characteristics">
+                            <p><strong>Основные характеристики:</strong></p>
+                            <p>Тип крепления: <span>значение</span></p>
+                            <p>Угол кончика пуасона: <span>значение</span></p>
+                            <p>Полезная высота: <span>значение</span></p>
+                        </div>
+                        <div class="product-card-btns-bar">
+                            <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                            <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                    title="Избранное"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-green section-slider">
+    <div class="container">
+        <h2 class="section-title section-title-center section-title-white">Статьи</h2>
+        <div class="js-articles-slider slider-white slider-default">
+            <div class="news-slide">
+                <a href="text-page.html" class="article-card article-card-slider article-card-small">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-product-card-medium.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span class="article-card-link article-card-link-green">Подробнее</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="news-slide">
+                <a href="text-page.html" class="article-card article-card-slider article-card-small">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-product-card-medium.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span class="article-card-link article-card-link-green">Подробнее</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="news-slide">
+                <a href="text-page.html" class="article-card article-card-slider article-card-small">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-product-card-medium.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span class="article-card-link article-card-link-green">Подробнее</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="news-slide">
+                <a href="text-page.html" class="article-card article-card-slider article-card-small">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-product-card-medium.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span class="article-card-link article-card-link-green">Подробнее</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="news-slide">
+                <a href="text-page.html" class="article-card article-card-slider article-card-small">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-product-card-medium.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span class="article-card-link article-card-link-green">Подробнее</span></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a href="articles.html" class="btn btn-section-slider btn-block btn-center btn-red btn-big"><span>Все статьи</span></a>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-item footer-item-company">
+            <h6 class="footer-item-title">О компании</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="text-page.html" class="footer-menu-link">О компании</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="projects.html" class="footer-menu-link">Проекты</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="stock.html" class="footer-menu-link">Акции</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="reference-table.html" class="footer-menu-link">Справочная таблица</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="reviews.html" class="footer-menu-link">Отзывы</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Галерея</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="news.html" class="footer-menu-link">Новости</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="articles.html" class="footer-menu-link">Статьи</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="contacts.html" class="footer-menu-link">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-equipment">
+            <h6 class="footer-item-title">Оборудование</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Листогибочные прессы</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки гидроабразивной резки</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки дробеметной очистки</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки зачистки и шлифовки листа</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-tools">
+            <h6 class="footer-item-title">Инструмент</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Листогибочный инструмент </a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Ножи для гильотинных ножниц</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Пробивной инструмент</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-contacts">
+            <h6 class="footer-item-title">Контакты</h6>
+            <div class="footer-contacts">
+                <p class="footer-contacts-item footer-contacts-item-tel">
+                    г.&nbsp;Санкт-Петербург: <a href="tel:88126281326" class="footer-contacts-item-link">8&nbsp;(812)&nbsp;628-13-26</a><br>
+                    г.&nbsp;Москва: <a href="tel:84951881326" class="footer-contacts-item-link">8&nbsp;(495)&nbsp;188-13-26</a>
+                </p>
+                <a href="mailto:sales@ottimo-tools.ru" class="footer-contacts-item footer-contacts-item-email">
+                    <span>sales@ottimo-tools.ru</span>
+                </a>
+                <p class="footer-contacts-item footer-contacts-item-address">
+                    г.&nbsp;Санкт-Петербург, проспект Культуры 44А, офис&nbsp;302
+                </p>
+                <p class="footer-contacts-item footer-contacts-item-time">
+                    Пн&ndash;Пт &mdash; с&nbsp;9:00 до&nbsp;18:00;<br>
+                    Сб,&nbsp;Вс &mdash; выходной;
+                </p>
+                <p class="footer-contacts-item-soc">
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-youtube"></a>
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-facebook"></a>
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-instagram"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="request-call-popup" class="modal fade request-call-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog request-call-modal-dialog" role="document">
+        <div class="modal-content request-modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" title="Закрыть"></button>
+            <h2 class="modal-title section-title section-title-red"><span>Заказать звонок</span></h2>
+            <form id="request-call-form" class="request-call-form inline-form" name="request-call-form">
+                <div class="form-group">
+                    <input id="request-call-name" type="text" name="request-call-name" class="form-control"
+                           placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input id="request-call-tel" type="tel" name="request-call-tel" class="form-control"
+                           placeholder="Телефон" required>
+                </div>
+                <button class="btn btn-red btn-block btn-center btn-submit" type="submit">Перезвонить</button>
+                <p class="form-disclaimer">Нажимая "Перезвонить" Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a href="text-page.html">пользовательским соглашением и&nbsp;политикой
+                    конфиденциальности</a>.
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="request-popup" class="modal fade request-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog request-modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" title="Закрыть"></button>
+            <h2 class="modal-title section-title section-title-red"><span>Отправить заявку</span></h2>
+            <form id="request-form" class="request-form inline-form" name="request-form">
+                <div class="form-group">
+                    <input id="request-name" type="text" name="request-name" class="form-control"
+                           placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input id="request-tel" type="tel" name="request-tel" class="form-control"
+                           placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <input id="request-email" type="email" name="request-email" class="form-control"
+                           placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <input id="request-company-name" type="text" name="request-company-name" class="form-control"
+                           placeholder="Название компании">
+                </div>
+                <div class="form-group row align-items-center">
+                    <div class="col-sm-6">
+                        <label class="form-group-label">Удобное время для звонка</label>
+                    </div>
+                    <div class="col-md-6">
+                        <select name="request-time" id="request-time">
+                            <option value="blank" selected>- Выбрать время</option>
+                            <option value="time1">10.00-11.00</option>
+                            <option value="time2">11.00-12.00</option>
+                            <option value="time-3">12.00-13.00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row align-items-center">
+                    <div class="col-md-6">
+                        <label class="form-group-label">Прикрепить файл</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="request-file" name="request-file" class="js-file" type="file" value="">
+                        <label for="request-file" class="request-file-label js-file-label">Обзор</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input id="request-comment" type="text" name="request-comment" class="form-control"
+                           placeholder="Комментарий">
+                </div>
+                <button class="btn btn-red btn-block btn-center btn-submit" type="submit">Отправить</button>
+                <p class="form-disclaimer">Нажимая "Отправить" Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
+                        href="text-page.html">пользовательским соглашением и&nbsp;политикой
+                    конфиденциальности</a>.
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/fancySelect.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+

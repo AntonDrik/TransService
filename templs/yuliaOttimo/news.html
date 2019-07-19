@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <title>Ottimo-tools</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid-validation-modal-tabs-print.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+    <div class="container header-container">
+        <a href="index.html" class="header-logo">
+            <img src="img/logo.png" alt="" class="header-logo-img">
+        </a>
+        <div class="header-contacts">
+            <div class="header-contacts-in header-contacts-in-1">
+                <p class="header-contacts-item header-contacts-item-tel">
+                    <a href="tel:88126281326" class="header-contacts-item-link">8 (812) 628-13-26</a> г.&nbsp;С.Петербург
+                </p>
+                <p class="header-contacts-item">
+                    <a href="tel:84951881326" class="header-contacts-item-link">8 (495) 188-13-26</a> г.&nbsp;Москва
+                </p>
+            </div>
+            <div class="header-contacts-in header-contacts-in-2">
+                <p class="header-contacts-item header-contacts-item-address">
+                    г.&nbsp;С.Петербург, пр.&nbsp;Культуры 44А, оф&nbsp;302
+                </p>
+                <a href="mailto:sales@ottimo-tools.ru" class="header-contacts-item header-contacts-item-email"><span>sales@ottimo-tools.ru</span></a>
+            </div>
+        </div>
+        <div class="header-icons-wrapper">
+            <a href="favorites.html" class="header-icons-link header-icons-link-favorites" title="Избранное"></a>
+            <a href="cart.html" class="header-icons-link header-icons-link-cart" title="Корзина"></a>
+            <a href="#" class="header-icons-link header-icons-link-request-call" title="Заказать звонок" data-href="#request-call-popup"
+               data-toggle="modal" data-target="#request-call-popup"></a>
+        </div>
+    </div>
+    <nav id="js-menu-wrapper" class="header-menu-wrapper">
+        <div class="container header-menu-container">
+            <button id="js-menu-btn" class="header-menu-btn" type="button">
+                <span class="header-menu-btn-item header-menu-btn-item-1"></span>
+                <span class="header-menu-btn-item header-menu-btn-item-2"></span>
+                <span class="header-menu-btn-item header-menu-btn-item-3"></span>
+            </button>
+            <ul id="js-menu" class="header-menu">
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="text-page.html" class="header-menu-link">О компании</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="catalog-section-equipment.html" class="header-menu-link">Оборудование</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="catalog-equipment.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="catalog-equipment.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="catalog-section-tools.html" class="header-menu-link">Инструменты</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="catalog-tools.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="catalog-tools.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item">
+                    <a href="partners.html" class="header-menu-link">Наши партнеры</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="projects.html" class="header-menu-link">Проекты</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="stock.html" class="header-menu-link">Акции</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="news.html" class="header-menu-link">Новости</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="articles.html" class="header-menu-link">Статьи</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="contacts.html" class="header-menu-link">Контакты</a>
+                </li>
+            </ul>
+            <div class="header-menu-icons-wrapper">
+                <a href="favorites.html" class="header-icons-link header-icons-link-favorites" title="Избранное"></a>
+                <a href="cart.html" class="header-icons-link header-icons-link-cart" title="Корзина"></a>
+                <a href="#" class="header-icons-link header-icons-link-request-call" title="Заказать звонок" data-href="#request-call-popup"
+                   data-toggle="modal" data-target="#request-call-popup"></a>
+                <a href="" class="header-menu-search" title="Поиск"></a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="breadcrumbs">
+    <div class="container">
+        <a href="index.html" class="breadcrumbs-link">Главная</a>
+        <span class="breadcrumbs-current">Новости</span>
+    </div>
+</div>
+<div class="section-inner">
+    <div class="container">
+        <h1 class="section-title section-title-green"><span>Новости</span></h1>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 card-wrapper">
+                <a href="text-page.html" class="article-card">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-article-card.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <p class="article-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn btn-red btn-more btn-red btn-block btn-card">Подробнее</button>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <button class="btn btn-block btn-center btn-red btn-section-slider" type="button">Показать еще</button>
+    </div>
+</div>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-item footer-item-company">
+            <h6 class="footer-item-title">О компании</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="text-page.html" class="footer-menu-link">О компании</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="projects.html" class="footer-menu-link">Проекты</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="stock.html" class="footer-menu-link">Акции</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="reference-table.html" class="footer-menu-link">Справочная таблица</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="reviews.html" class="footer-menu-link">Отзывы</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Галерея</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="news.html" class="footer-menu-link">Новости</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="articles.html" class="footer-menu-link">Статьи</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="contacts.html" class="footer-menu-link">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-equipment">
+            <h6 class="footer-item-title">Оборудование</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Листогибочные прессы</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки гидроабразивной резки</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки дробеметной очистки</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки зачистки и шлифовки листа</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-tools">
+            <h6 class="footer-item-title">Инструмент</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Листогибочный инструмент </a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Ножи для гильотинных ножниц</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Пробивной инструмент</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-contacts">
+            <h6 class="footer-item-title">Контакты</h6>
+            <div class="footer-contacts">
+                <p class="footer-contacts-item footer-contacts-item-tel">
+                    г.&nbsp;Санкт-Петербург: <a href="tel:88126281326" class="footer-contacts-item-link">8&nbsp;(812)&nbsp;628-13-26</a><br>
+                    г.&nbsp;Москва: <a href="tel:84951881326" class="footer-contacts-item-link">8&nbsp;(495)&nbsp;188-13-26</a>
+                </p>
+                <a href="mailto:sales@ottimo-tools.ru" class="footer-contacts-item footer-contacts-item-email">
+                    <span>sales@ottimo-tools.ru</span>
+                </a>
+                <p class="footer-contacts-item footer-contacts-item-address">
+                    г.&nbsp;Санкт-Петербург, проспект Культуры 44А, офис&nbsp;302
+                </p>
+                <p class="footer-contacts-item footer-contacts-item-time">
+                    Пн&ndash;Пт &mdash; с&nbsp;9:00 до&nbsp;18:00;<br>
+                    Сб,&nbsp;Вс &mdash; выходной;
+                </p>
+                <p class="footer-contacts-item-soc">
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-youtube"></a>
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-facebook"></a>
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-instagram"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="request-call-popup" class="modal fade request-call-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog request-call-modal-dialog" role="document">
+        <div class="modal-content request-modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" title="Закрыть"></button>
+            <h2 class="modal-title section-title section-title-red"><span>Заказать звонок</span></h2>
+            <form id="request-call-form" class="request-call-form inline-form" name="request-call-form">
+                <div class="form-group">
+                    <input id="request-call-name" type="text" name="request-call-name" class="form-control"
+                           placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input id="request-call-tel" type="tel" name="request-call-tel" class="form-control"
+                           placeholder="Телефон" required>
+                </div>
+                <button class="btn btn-red btn-block btn-center btn-submit" type="submit">Перезвонить</button>
+                <p class="form-disclaimer">Нажимая "Перезвонить" Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a href="text-page.html">пользовательским соглашением и&nbsp;политикой
+                    конфиденциальности</a>.
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+

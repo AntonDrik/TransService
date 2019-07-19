@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <title>Ottimo-tools</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid-validation-modal-tabs-print.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/fancySelect.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+    <div class="container header-container">
+        <a href="index.html" class="header-logo">
+            <img src="img/logo.png" alt="" class="header-logo-img">
+        </a>
+        <div class="header-contacts">
+            <div class="header-contacts-in header-contacts-in-1">
+                <p class="header-contacts-item header-contacts-item-tel">
+                    <a href="tel:88126281326" class="header-contacts-item-link">8 (812) 628-13-26</a> г.&nbsp;С.Петербург
+                </p>
+                <p class="header-contacts-item">
+                    <a href="tel:84951881326" class="header-contacts-item-link">8 (495) 188-13-26</a> г.&nbsp;Москва
+                </p>
+            </div>
+            <div class="header-contacts-in header-contacts-in-2">
+                <p class="header-contacts-item header-contacts-item-address">
+                    г.&nbsp;С.Петербург, пр.&nbsp;Культуры 44А, оф&nbsp;302
+                </p>
+                <a href="mailto:sales@ottimo-tools.ru" class="header-contacts-item header-contacts-item-email"><span>sales@ottimo-tools.ru</span></a>
+            </div>
+        </div>
+        <div class="header-icons-wrapper">
+            <a href="favorites.html" class="header-icons-link header-icons-link-favorites" title="Избранное"></a>
+            <a href="cart.html" class="header-icons-link header-icons-link-cart" title="Корзина"></a>
+            <a href="#" class="header-icons-link header-icons-link-request-call" title="Заказать звонок" data-href="#request-call-popup"
+               data-toggle="modal" data-target="#request-call-popup"></a>
+        </div>
+    </div>
+    <nav id="js-menu-wrapper" class="header-menu-wrapper">
+        <div class="container header-menu-container">
+            <button id="js-menu-btn" class="header-menu-btn" type="button">
+                <span class="header-menu-btn-item header-menu-btn-item-1"></span>
+                <span class="header-menu-btn-item header-menu-btn-item-2"></span>
+                <span class="header-menu-btn-item header-menu-btn-item-3"></span>
+            </button>
+            <ul id="js-menu" class="header-menu">
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="text-page.html" class="header-menu-link">О компании</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="catalog-section-equipment.html" class="header-menu-link">Оборудование</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="catalog-equipment.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="catalog-equipment.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item header-menu-item-with-submenu">
+                    <a href="catalog-section-tools.html" class="header-menu-link">Инструменты</a>
+                    <button class="header-menu-item-submenu-btn js-submenu-btn" type="button"></button>
+                    <ul class="header-submenu js-submenu">
+                        <li class="header-submenu-item">
+                            <a href="catalog-tools.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                        <li class="header-submenu-item">
+                            <a href="catalog-tools.html" class="header-submenu-link">Ссылка</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu-item">
+                    <a href="partners.html" class="header-menu-link">Наши партнеры</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="projects.html" class="header-menu-link">Проекты</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="stock.html" class="header-menu-link">Акции</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="news.html" class="header-menu-link">Новости</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="articles.html" class="header-menu-link">Статьи</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="contacts.html" class="header-menu-link">Контакты</a>
+                </li>
+            </ul>
+            <div class="header-menu-icons-wrapper">
+                <a href="favorites.html" class="header-icons-link header-icons-link-favorites" title="Избранное"></a>
+                <a href="cart.html" class="header-icons-link header-icons-link-cart" title="Корзина"></a>
+                <a href="#" class="header-icons-link header-icons-link-request-call" title="Заказать звонок" data-href="#request-call-popup"
+                   data-toggle="modal" data-target="#request-call-popup"></a>
+                <a href="" class="header-menu-search" title="Поиск"></a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="breadcrumbs">
+    <div class="container">
+        <a href="index.html" class="breadcrumbs-link">Главная</a>
+        <span class="breadcrumbs-current">Название подкатегории</span>
+    </div>
+</div>
+<div class="section-inner section-inner-catalog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="product-menu-wrapper js-hidden-content-wrapper">
+                    <button class="product-menu-main-button product-menu-main-button-green js-btn-show" type="button">Инструмент</button>
+                    <ul class="product-menu hidden-content js-hidden-content">
+                        <li class="product-menu-item product-menu-item-with-submenu js-hidden-content-wrapper">
+                            <a href="catalog-section-tools.html" class="product-menu-link">Листогибочный инструмент</a>
+                            <button class="product-menu-btn js-btn-show" type="button"></button>
+                            <ul class="product-submenu hidden-content js-hidden-content">
+                                <li class="product-submenu-item product-submenu-item-with-submenu">
+                                    <a href="catalog-tools.html" class="product-submenu-link">Ножи для гильотинных ножниц</a>
+                                    <button class="product-menu-btn js-btn-show" type="button"></button>
+                                    <ul class="product-subsubmenu hidden-content js-hidden-content">
+                                        <li class="product-subsubmenu-item">
+                                            <a href="catalog-products-tools.html" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                        <li class="product-subsubmenu-item">
+                                            <a href="catalog-products-tools.html" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="product-submenu-item product-submenu-item-with-submenu">
+                                    <a href="catalog-tools.html" class="product-submenu-link">Пробивной инструмент</a>
+                                    <button class="product-menu-btn js-btn-show" type="button"></button>
+                                    <ul class="product-subsubmenu hidden-content js-hidden-content">
+                                        <li class="product-subsubmenu-item">
+                                            <a href="" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                        <li class="product-subsubmenu-item">
+                                            <a href="" class="product-subsubmenu-link">consectetur adipisicing elit</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="product-menu-item product-menu-item-with-submenu js-hidden-content-wrapper">
+                            <a href="catalog-section-tools.html" class="product-menu-link">Название</a>
+                            <button class="product-menu-btn js-btn-show" type="button"></button>
+                            <ul class="product-submenu hidden-content js-hidden-content">
+                                <li class="product-submenu-item product-submenu-item-with-submenu">
+                                    <a href="catalog-tools.html" class="product-submenu-link">Ножи для гильотинных ножниц</a>
+                                    <button class="product-menu-btn js-btn-show" type="button"></button>
+                                    <ul class="product-subsubmenu hidden-content js-hidden-content">
+                                        <li class="product-subsubmenu-item">
+                                            <a href="catalog-products-tools.html" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                        <li class="product-subsubmenu-item">
+                                            <a href="catalog-section-tools.html" class="product-subsubmenu-link">consectetur adipisicing elit</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="product-submenu-item product-submenu-item-with-submenu">
+                                    <a href="catalog-tools.html" class="product-submenu-link">Пробивной инструмент</a>
+                                    <button class="product-menu-btn js-btn-show" type="button"></button>
+                                    <ul class="product-subsubmenu hidden-content js-hidden-content">
+                                        <li class="product-subsubmenu-item">
+                                            <a href="" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                        <li class="product-subsubmenu-item">
+                                            <a href="" class="product-subsubmenu-link">consectetur adipisicing elit</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="product-menu-item product-menu-item-with-submenu js-hidden-content-wrapper">
+                            <a href="catalog-section-tools.html" class="product-menu-link">Название</a>
+                            <button class="product-menu-btn js-btn-show" type="button"></button>
+                            <ul class="product-submenu hidden-content js-hidden-content">
+                                <li class="product-submenu-item product-submenu-item-with-submenu">
+                                    <a href="catalog-tools.html" class="product-submenu-link">Ножи для гильотинных ножниц</a>
+                                    <button class="product-menu-btn js-btn-show" type="button"></button>
+                                    <ul class="product-subsubmenu hidden-content js-hidden-content">
+                                        <li class="product-subsubmenu-item">
+                                            <a href="catalog-products-tools.html" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                        <li class="product-subsubmenu-item">
+                                            <a href="catalog-section-tools.html" class="product-subsubmenu-link">consectetur adipisicing elit</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="product-submenu-item product-submenu-item-with-submenu">
+                                    <a href="catalog-tools.html" class="product-submenu-link">Пробивной инструмент</a>
+                                    <button class="product-menu-btn js-btn-show" type="button"></button>
+                                    <ul class="product-subsubmenu hidden-content js-hidden-content">
+                                        <li class="product-subsubmenu-item">
+                                            <a href="" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                        <li class="product-subsubmenu-item">
+                                            <a href="" class="product-subsubmenu-link">consectetur adipisicing elit</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="product-menu-item product-menu-item-with-submenu js-hidden-content-wrapper">
+                            <a href="catalog-section-tools.html" class="product-menu-link">Название</a>
+                            <button class="product-menu-btn js-btn-show" type="button"></button>
+                            <ul class="product-submenu hidden-content js-hidden-content">
+                                <li class="product-submenu-item product-submenu-item-with-submenu">
+                                    <a href="catalog-tools.html" class="product-submenu-link">Ножи для гильотинных ножниц</a>
+                                    <button class="product-menu-btn js-btn-show" type="button"></button>
+                                    <ul class="product-subsubmenu hidden-content js-hidden-content">
+                                        <li class="product-subsubmenu-item">
+                                            <a href="catalog-products-tools.html" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                        <li class="product-subsubmenu-item">
+                                            <a href="catalog-section-tools.html" class="product-subsubmenu-link">consectetur adipisicing elit</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="product-submenu-item product-submenu-item-with-submenu">
+                                    <a href="catalog-tools.html" class="product-submenu-link">Пробивной инструмент</a>
+                                    <button class="product-menu-btn js-btn-show" type="button"></button>
+                                    <ul class="product-subsubmenu hidden-content js-hidden-content">
+                                        <li class="product-subsubmenu-item">
+                                            <a href="" class="product-subsubmenu-link">Lorem ipsum dolor sit amet </a>
+                                        </li>
+                                        <li class="product-subsubmenu-item">
+                                            <a href="" class="product-subsubmenu-link">consectetur adipisicing elit</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-left-filter-wrapper">
+                    <form id="catalog-search-form" class="catalog-search-form">
+                        <input id="catalog-search-input" type="search" class="form-control form-control-sm catalog-search-input"
+                               placeholder="Поиск по аналогам">
+                        <button class="catalog-search-button" type="submit"></button>
+                    </form>
+                    <form id="catalog-filter-form" class="catalog-left-filter">
+                        <div class="catalog-left-filter-item">
+                            <h6 class="catalog-left-filter-item-title">Тип инструмента</h6>
+                            <select name="tools-type" id="tools-type" class="form-control form-control-sm">
+                                <option value="type-0">- Выберите тип</option>
+                                <option value="type-1" selected>Пуансон</option>
+                                <option value="type-2">Тип 2</option>
+                                <option value="type-3">Тип 3</option>
+                                <option value="type-4">Тип 4</option>
+                            </select>
+                        </div>
+                        <div class="catalog-left-filter-item">
+                            <h6 class="catalog-left-filter-item-title">Пуансон:</h6>
+                            <div class="form-group">
+                                <label class="label">Выберите тип крепления</label>
+                                <select name="mounting-type" id="mounting-type" class="form-control form-control-sm">
+                                    <option value="type-0" selected>- Выбрать</option>
+                                    <option value="type-1">Тип 1</option>
+                                    <option value="type-2">Тип 2</option>
+                                    <option value="type-3">Тип 3</option>
+                                    <option value="type-4">Тип 4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="label">Угол кончика пуансона</label>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input id="min-deg" type="text" value="" placeholder="- от"
+                                               class="form-control form-control-sm js-range-min" data-min="0">
+                                    </div>
+                                    <div class="col-6">
+                                        <input id="max-deg" type="text" value="" placeholder="- до"
+                                               class="form-control form-control-sm js-range-max" data-max="90">
+                                    </div>
+                                </div>
+                                <input type="text" id="deg" class="js-ion-range-slider form-control-range-slider" data-min="1"
+                                       data-max="90">
+                            </div>
+                            <div class="form-group">
+                                <label class="label">Полезная высота</label>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input id="min-height" type="text" value="" placeholder="- от"
+                                               class="form-control form-control-sm js-range-min" data-min="0">
+                                    </div>
+                                    <div class="col-6">
+                                        <input id="max-height" type="text" value="" placeholder="- до"
+                                               class="form-control form-control-sm js-range-max" data-max="1000">
+                                    </div>
+                                </div>
+                                <input type="text" id="height" class="js-ion-range-slider form-control-range-slider" data-min="1"
+                                       data-max="100">
+                            </div>
+                            <div class="form-group">
+                                <label class="label">Максимальная удельная нагрузка</label>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input id="min-load" type="text" value="" placeholder="- от"
+                                               class="form-control form-control-sm js-range-min" data-min="0">
+                                    </div>
+                                    <div class="col-6">
+                                        <input id="max-load" type="text" value="" placeholder="- до"
+                                               class="form-control form-control-sm js-range-max" data-max="1000">
+                                    </div>
+                                </div>
+                                <input type="text" id="load" class="js-ion-range-slider form-control-range-slider" data-min="1"
+                                       data-max="100">
+                            </div>
+                            <div class="form-group catalog-left-filter-form-group-image">
+                                <img src="img/img-catalo-left-filter-u-profile.jpg" alt="">
+                                <label class="label">U-профиль A B</label>
+                                <div class="row">
+                                    <div class="col-6 col-lg-12 col-xl-6">
+                                        <select name="u-profile-a" id="u-profile-a" class="form-control form-control-sm">
+                                            <option value="type-0" selected>- A</option>
+                                            <option value="type-1">Тип</option>
+                                            <option value="type-2">Тип</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6 col-lg-12 col-xl-6">
+                                        <select name="u-profile-b" id="u-profile-b" class="form-control form-control-sm">
+                                            <option value="type-0">- B</option>
+                                            <option value="type-1">Тип</option>
+                                            <option value="type-2">Тип</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="sidebar-articles visible-lg">
+                    <h4>Статьи</h4>
+                    <a href="text-page.html" class="article-card article-card-small">
+                        <div class="article-card-img-wrapper">
+                            <img src="img/img-product-card-medium.png" alt="">
+                        </div>
+                        <div class="article-card-content">
+                            <p class="article-card-date">12.05.2019</p>
+                            <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                            <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span
+                                    class="article-card-link article-card-link-green">Подробнее</span></p>
+                        </div>
+                    </a>
+                    <a href="text-page.html" class="article-card article-card-small">
+                        <div class="article-card-img-wrapper">
+                            <img src="img/img-product-card-medium.png" alt="">
+                        </div>
+                        <div class="article-card-content">
+                            <p class="article-card-date">12.05.2019</p>
+                            <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                            <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span
+                                    class="article-card-link article-card-link-green">Подробнее</span></p>
+                        </div>
+                    </a>
+                    <a href="text-page.html" class="article-card article-card-small">
+                        <div class="article-card-img-wrapper">
+                            <img src="img/img-product-card-medium.png" alt="">
+                        </div>
+                        <div class="article-card-content">
+                            <p class="article-card-date">12.05.2019</p>
+                            <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                            <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span
+                                    class="article-card-link article-card-link-green">Подробнее</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-9 catalog-content">
+                <div class="catalog-top-filter">
+                    <div class="catalog-top-filter-count">
+                        <p class="catalog-top-filter-count-title">Товаров на странице</p>
+                        <select name="catalog-count-select" id="catalog-count-select"
+                                class="catalog-top-filter-count-select form-control form-control-sm">
+                            <option value="20" selected>20</option>
+                            <option value="40">40</option>
+                            <option value="60">60</option>
+                            <option value="80">80</option>
+                        </select>
+                    </div>
+                    <div class="catalog-top-filter-btns-bar">
+                        <button id="js-catalog-list-rows-btn" class="catalog-top-filter-btn-rows catalog-top-filter-btn"></button>
+                        <button id="js-catalog-list-cols-btn" class="catalog-top-filter-btn-cols catalog-top-filter-btn active"></button>
+                    </div>
+                </div>
+                <h1 class="section-title section-title-green catalog-products-title"><span>Название подкатегории</span></h1>
+                <div class="row catalog-list">
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <div class="product-card-status"><span>Новинка</span></div>
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <div class="product-card-status"><span>Акция</span></div>
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 card-wrapper-small">
+                        <div class="card product-card product-card-tools">
+                            <a href="product-page-tools.html" class="product-card-img-wrapper">
+                                <img src="img/img-product-card-tools.jpg" alt="">
+                            </a>
+                            <div class="product-card-links">
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-drawing"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-drawing"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Чертеж</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-grid"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-grid"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Сетка</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-sectionalism"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-sectionalism"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Секционность</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-u-profile"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-u-profile"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">U-профиль</p>
+                                    </div>
+                                </div>
+                                <div class="product-card-links-item">
+                                    <div class="product-card-links-item-ico product-card-links-item-ico-common"></div>
+                                    <div class="product-card-links-item-tooltip">
+                                        <a href="" class="product-card-links-item-tooltip-ico product-card-links-item-ico-common"></a>
+                                        <p class="product-card-links-item-tooltip-name product-card-links-item-tooltip-name-png">Общие</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-content">
+                                <h6
+                                        class="product-card-title"><a href="product-page-tools.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+                                <p class="product-card-vendor-code">
+                                    <strong>Артикул: </strong> 123456789
+                                </p>
+                                <div class="product-card-characteristics">
+                                    <p><strong>Основные характеристики:</strong></p>
+                                    <p>Тип крепления: <span>значение</span></p>
+                                    <p>Угол кончика пуасона: <span>значение</span></p>
+                                    <p>Полезная высота: <span>значение</span></p>
+                                </div>
+                                <div class="product-card-btns-bar">
+                                    <a href="" class="btn btn-green btn-block product-card-btn">В заказ</a>
+                                    <button class="product-card-favorites-btn favorites-btn favorites-btn-green" type="button"
+                                            title="Избранное"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination pagination-green">
+                    <a href="" class="pagination-item pagination-item-prev">Назад</a>
+                    <a href="" class="pagination-item">1</a>
+                    <a href="" class="pagination-item active">2</a>
+                    <a href="" class="pagination-item">3</a>
+                    <span class="pagination-item pagination-item-dots">...</span>
+                    <a href="" class="pagination-item">7</a>
+                    <a href="" class="pagination-item pagination-item-next">Вперед</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-inner text-section">
+    <div class="container">
+        <h2 class="article-title article-title-small">Заголовок текстового блока:</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </p>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+</div>
+<section class="section-inner">
+    <div class="container">
+        <div class="card card-decorated docs-card">
+            <h2 class="article-title article-title-small article-title-green"><span>Заголовок</span></h2>
+            <p class="ico-text ico-text-green pdf"><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla
+                pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</a></p>
+            <p class="ico-text ico-text-green doc"><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla
+                pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</a></p>
+            <p class="ico-text ico-text-green doc"><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla
+                pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</a></p>
+        </div>
+    </div>
+</section>
+<div class="section-inner hidden-lg">
+    <div class="container">
+        <h4>Статьи</h4>
+        <div class="row">
+            <div class="col-md-4 card-wrapper">
+                <a href="text-page.html" class="article-card article-card-small">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-product-card-medium.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span class="article-card-link article-card-link-green">Подробнее</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 card-wrapper">
+                <a href="text-page.html" class="article-card article-card-small">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-product-card-medium.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span
+                                class="article-card-link article-card-link-green">Подробнее</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 card-wrapper">
+                <a href="text-page.html" class="article-card article-card-small">
+                    <div class="article-card-img-wrapper">
+                        <img src="img/img-product-card-medium.png" alt="">
+                    </div>
+                    <div class="article-card-content">
+                        <p class="article-card-date">12.05.2019</p>
+                        <h6 class="article-card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                        <p class="article-card-text">Ut enim ad minim veniam, quis nostrud exercitation <span
+                                class="article-card-link article-card-link-green">Подробнее</span></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-item footer-item-company">
+            <h6 class="footer-item-title">О компании</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="text-page.html" class="footer-menu-link">О компании</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="projects.html" class="footer-menu-link">Проекты</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="stock.html" class="footer-menu-link">Акции</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="reference-table.html" class="footer-menu-link">Справочная таблица</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="reviews.html" class="footer-menu-link">Отзывы</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Галерея</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="news.html" class="footer-menu-link">Новости</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="articles.html" class="footer-menu-link">Статьи</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="contacts.html" class="footer-menu-link">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-equipment">
+            <h6 class="footer-item-title">Оборудование</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Листогибочные прессы</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки гидроабразивной резки</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки дробеметной очистки</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Установки зачистки и шлифовки листа</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-tools">
+            <h6 class="footer-item-title">Инструмент</h6>
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Листогибочный инструмент </a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Ножи для гильотинных ножниц</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="" class="footer-menu-link">Пробивной инструмент</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item-contacts">
+            <h6 class="footer-item-title">Контакты</h6>
+            <div class="footer-contacts">
+                <p class="footer-contacts-item footer-contacts-item-tel">
+                    г.&nbsp;Санкт-Петербург: <a href="tel:88126281326" class="footer-contacts-item-link">8&nbsp;(812)&nbsp;628-13-26</a><br>
+                    г.&nbsp;Москва: <a href="tel:84951881326" class="footer-contacts-item-link">8&nbsp;(495)&nbsp;188-13-26</a>
+                </p>
+                <a href="mailto:sales@ottimo-tools.ru" class="footer-contacts-item footer-contacts-item-email">
+                    <span>sales@ottimo-tools.ru</span>
+                </a>
+                <p class="footer-contacts-item footer-contacts-item-address">
+                    г.&nbsp;Санкт-Петербург, проспект Культуры 44А, офис&nbsp;302
+                </p>
+                <p class="footer-contacts-item footer-contacts-item-time">
+                    Пн&ndash;Пт &mdash; с&nbsp;9:00 до&nbsp;18:00;<br>
+                    Сб,&nbsp;Вс &mdash; выходной;
+                </p>
+                <p class="footer-contacts-item-soc">
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-youtube"></a>
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-facebook"></a>
+                    <a href="" class="footer-contacts-soc-link footer-contacts-soc-link-instagram"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="request-call-popup" class="modal fade request-call-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog request-call-modal-dialog" role="document">
+        <div class="modal-content request-modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" title="Закрыть"></button>
+            <h2 class="modal-title section-title section-title-red"><span>Заказать звонок</span></h2>
+            <form id="request-call-form" class="request-call-form inline-form" name="request-call-form">
+                <div class="form-group">
+                    <input id="request-call-name" type="text" name="request-call-name" class="form-control"
+                           placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input id="request-call-tel" type="tel" name="request-call-tel" class="form-control"
+                           placeholder="Телефон" required>
+                </div>
+                <button class="btn btn-red btn-block btn-center btn-submit" type="submit">Перезвонить</button>
+                <p class="form-disclaimer">Нажимая "Перезвонить" Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a href="text-page.html">пользовательским соглашением и&nbsp;политикой
+                    конфиденциальности</a>.
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="request-popup" class="modal fade request-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog request-modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" title="Закрыть"></button>
+            <h2 class="modal-title section-title section-title-red"><span>Отправить заявку</span></h2>
+            <form id="request-form" class="request-form inline-form" name="request-form">
+                <div class="form-group">
+                    <input id="request-name" type="text" name="request-name" class="form-control"
+                           placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input id="request-tel" type="tel" name="request-tel" class="form-control"
+                           placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <input id="request-email" type="email" name="request-email" class="form-control"
+                           placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <input id="request-company-name" type="text" name="request-company-name" class="form-control"
+                           placeholder="Название компании">
+                </div>
+                <div class="form-group row align-items-center">
+                    <div class="col-sm-6">
+                        <label class="form-group-label">Удобное время для звонка</label>
+                    </div>
+                    <div class="col-md-6">
+                        <select name="request-time" id="request-time">
+                            <option value="blank" selected>- Выбрать время</option>
+                            <option value="time1">10.00-11.00</option>
+                            <option value="time2">11.00-12.00</option>
+                            <option value="time-3">12.00-13.00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row align-items-center">
+                    <div class="col-md-6">
+                        <label class="form-group-label">Прикрепить файл</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="request-file" name="request-file" class="js-file" type="file" value="">
+                        <label for="request-file" class="request-file-label js-file-label">Обзор</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input id="request-comment" type="text" name="request-comment" class="form-control"
+                           placeholder="Комментарий">
+                </div>
+                <button class="btn btn-red btn-block btn-center btn-submit" type="submit">Отправить</button>
+                <p class="form-disclaimer">Нажимая "Отправить" Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
+                        href="text-page.html">пользовательским соглашением и&nbsp;политикой
+                    конфиденциальности</a>.
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/fancySelect.js"></script>
+<script src="js/ion.rangeSlider.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
