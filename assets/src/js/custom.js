@@ -39,7 +39,7 @@ class Clock {
                 break;
         }
 
-        degree                = this.percentageToDegree(percentage);
+        degree = this.percentageToDegree(percentage);
         hand.style.transform  = `rotate(${degree}deg) translate(-50%, -50%)`;
         let min = date.getMinutes(), sec = date.getSeconds();
         if (min < 10) min = '0'+min;
@@ -158,6 +158,5 @@ $(document).ready(function() {
             $(tbody).toggle();
         });
     }
-
 });
 
