@@ -7,7 +7,6 @@ class Clock {
         this.minuteHand = this.HTML.querySelector('.minute.hand');
         this.secondHand = this.HTML.querySelector('.second.hand');
         this.time = this.HTML.closest('.clocks__item').querySelector('.clocks__time');
-        console.log(this.time);
 
         this.timer();
         setInterval(() => this.timer(), 1000);
