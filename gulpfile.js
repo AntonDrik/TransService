@@ -17,7 +17,8 @@ var path = {
     js: 'assets/dist/js/',
     css: 'assets/dist/css/',
     img: 'assets/dist/img/',
-    fonts: 'assets/dist/fonts/'
+    fonts: 'assets/dist/fonts/',
+	video: 'assets/dist/video/'
   },
   src: {
     html: 'assets/src/*.html',
@@ -25,14 +26,16 @@ var path = {
     mainStyle: 'assets/src/sass/main_global.scss',
     libsStyle: 'assets/src/sass/plugins/**/*.css',
     img: 'assets/src/img/**/*.*',
-    fonts: 'assets/src/fonts/**/*.*'
+    fonts: 'assets/src/fonts/**/*.*',
+	video: 'assets/src/video/*.*'
   },
   watch: {
     html: 'assets/src/*.html',
     js: 'assets/src/js/**/*.js',
     css: 'assets/src/sass/**/*.scss',
     img: 'assets/src/img/**/*.*',
-    fonts: 'assets/srs/fonts/**/*.*'
+    fonts: 'assets/srs/fonts/**/*.*',
+	video: 'assets/src/video/*.*'
   },
   clean: './assets/build/*'
 };
@@ -63,7 +66,7 @@ gulp.task('browser-sync', function () {
 		notify: false,
 		tunnel: true,
 	    host: 'localhost',
-		// browser: 'chromium-browser',
+		browser: 'chromium-browser',
 	    port: 9000,
 	    logPrefix: "Draik"
 	})
@@ -138,6 +141,13 @@ gulp.task('img', function() {
 		.pipe(gulp.dest(path.dist.img));
 });
 
+//Видео
+gulp.task('video', function () {
+	return gulp.src(path.src.video)
+		.pipe(gulp.dest(path.dist.video))
+		.pipe(browserSync.reload({stream: true}));
+});
+
 
 //удаление dist каталога
 gulp.task('clean', async function(){
@@ -155,12 +165,13 @@ gulp.task('clearCache', function (callback) {
 gulp.task('build',
   gulp.series('clean',
     gulp.parallel(
-      'html',
-      'css',
-      'css-libs',
-      'js',
-      'fonts',
-      'img'
+      	'html',
+      	'css',
+      	'css-libs',
+      	'js',
+      	'fonts',
+      	'img',
+		'video'
     )
   )
 );
@@ -170,6 +181,7 @@ gulp.task('watch', function (){
 	gulp.watch(path.watch.css, gulp.parallel('css'));
 	gulp.watch([path.watch.js], gulp.parallel('js'));
 	gulp.watch([path.watch.img], gulp.parallel('img'));
+	gulp.watch([path.watch.video], gulp.parallel('video'));
 	gulp.watch([path.watch.fonts], gulp.parallel('fonts'));
 });
 

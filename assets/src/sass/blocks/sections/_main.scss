@@ -5,6 +5,18 @@
 @import "index/about";
 @import "contacts/contacts";
 @import "contacts/callback";
+@import "aboutUs/about";
+@import "aboutUs/docs";
+@import "aboutUs/employers";
+@import "carriage/carriage__info";
+@import "carriage/carriage__table";
+@import "service/service";
+@import "review/review__gallery";
+@import "park/park";
+
+.hidden{
+  display: none;
+}
 
 .section-padding{
     padding-top: 60px;
@@ -41,6 +53,105 @@
   }
 }
 
-.hidden{
-    display: none;
+.list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 100px;
+  grid-gap: 30px 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e0e0e0;
+
+  &__item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    &:before{
+      content: '';
+      background-image: url("../img/sprite.png");
+      position: absolute;
+      left: 0;
+    }
   }
+}
+
+.cards{
+
+  &-container{
+    display: grid;
+    grid-gap: 25px;
+  }
+  &__card{
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+  }
+  &__info{
+    padding: 18px;
+  }
+  &__img{
+    & img{
+      width: 100%;
+    }
+  }
+}
+
+.gallery{
+
+  display: grid;
+  grid-gap: 35px;
+
+  & img{
+    width: 100%;
+  }
+}
+
+.pagination {
+  margin-top: 60px;
+  text-align: center;
+  &-item {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: top;
+    margin-left: 15px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+    background-color: #f8f8f8;
+    &:first-child {
+      margin-left: 0;
+    }
+    &.active {
+      color: #ffffff;
+    }
+    &-prev {
+      width: 85px;
+      color: #000;
+    }
+    &-next {
+      width: 85px;
+    }
+    &-dots {
+      &:hover, &:active, &:focus {
+        color: #000;
+      }
+    }
+  }
+  &-red {
+    .pagination-item {
+      &:hover, &:active, &:focus {
+        color: #000;
+      }
+      &.active {
+        background-color: $color-red;
+        &:hover, &:active, &:focus {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.more{
+  color: $color-red;
+}

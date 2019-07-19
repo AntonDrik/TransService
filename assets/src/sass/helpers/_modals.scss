@@ -60,3 +60,8 @@
 .my-mfp-zoom-in.mfp-removing.mfp-bg {
 	opacity: 0;
 }
+
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close{
+	cursor: pointer;
+}

@@ -141,18 +141,19 @@
         height: 23px;
         padding: 0;
         border: 0;
+        cursor: pointer;
 
         &>span {
             position: absolute;
             left: 0;
             width: 30px;
             height: 3px;
-            background-color: white;
+            background-color: #000;
+            cursor: pointer;
         }
 
         &>p {
             text-align: right;
-            cursor: pointer;
         }
     }
 

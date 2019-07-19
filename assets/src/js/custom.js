@@ -66,6 +66,8 @@ $(document).ready(function() {
         }
     });
 
+	if($(window).width() < 600 && $('table').length) $('.table-box').toggle();
+
     $(window).scroll(function(e) {
         if ($(window).scrollTop() >= 15) {
             $('.header').addClass('header-active');
@@ -104,9 +106,6 @@ $(document).ready(function() {
         },
         image: {
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-            titleSrc: function(item) {
-                return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-            }
         },
         zoom: {
             enabled: true,
@@ -143,6 +142,21 @@ $(document).ready(function() {
         $('#form-message').on('blur', function(){
             if(!$.trim($(this).val()))
             $(this).next()[0].classList.remove('hidden')
+        });
+    }
+
+    if($('video').length){
+        $('.about__video').on('click', function () {
+            $('.about__video-btn-play').toggleClass('hidden');
+            if($('video')[0].paused) $('video')[0].play();
+            else $('video')[0].pause();
+        });
+    }
+
+    if($('table').length){
+        $('.table-title').on('click', function () {
+            let tbody = $(this.closest('tbody')).next()[0];
+            $(tbody).toggle();
         });
     }
 
