@@ -65,22 +65,32 @@ $(document).ready(function() {
         }
     });
 
-	if($(window).width() < 600 && $('table').length) $('.table-box').toggle();
+    if($(window).width() < 767){
+        $('.table-box').toggle();
+        $('.header').addClass('header-active');
 
-    $(window).scroll(function(e) {
-        if ($(window).scrollTop() >= 15) {
-            $('.header').addClass('header-active');
-        } else {
-            $('.header').removeClass('header-active');
-        }
-    });
+        $('.review__gallery').slick({
+            prevArrow: '<div class="review__arrow slider__prev"></div>',
+            nextArrow: '<div class="review__arrow slider__next"></div>',
+            slidesToShow: 1,
+        })
+    }
+    else {
+        $(window).scroll(function(e) {
+            if ($(window).scrollTop() >= 15) {
+                $('.header').addClass('header-active');
+            } else {
+                $('.header').removeClass('header-active');
+            }
+        });
+    }
 
-    $('[href*="#contacts"]').on("click", function(event) {
-        event.preventDefault();
-        var id = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({ scrollTop: top }, 300);
-    });
+    // $('[href*="#contacts"]').on("click", function(event) {
+    //     event.preventDefault();
+    //     var id = $(this).attr('href'),
+    //         top = $(id).offset().top;
+    //     $('body,html').animate({ scrollTop: top }, 300);
+    // });
 
     $('.menu-mobile__bar').click(function(e) {
         e.preventDefault();
@@ -88,8 +98,8 @@ $(document).ready(function() {
     });
 
 	$('.main-slider__slick').slick({
-		prevArrow: '<div class="main-slider__prev"></div>',
-		nextArrow: '<div class="main-slider__next"></div>',
+		prevArrow: '<div class="slider__prev"></div>',
+		nextArrow: '<div class="slider__next"></div>',
         dots: true
 	});
 
@@ -114,23 +124,23 @@ $(document).ready(function() {
 
     if ($('.widget').length){
         let vancouver = new Clock({
-            timeZone: 'America/Vancouver',
-            HTML: document.querySelector('.clock-vancouver')
+            timeZone: 'Europe/Moscow',
+            HTML: document.querySelector('.clock-moscow')
         });
 
         let newYork = new Clock({
-            timeZone: 'America/New_York',
-            HTML: document.querySelector('.clock-newyork')
+            timeZone: 'Asia/Almaty',
+            HTML: document.querySelector('.clock-almaty')
         });
 
         let london = new Clock({
-            timeZone: 'Europe/London',
-            HTML: document.querySelector('.clock-london')
+            timeZone: 'Asia/Krasnoyarsk',
+            HTML: document.querySelector('.clock-krasnoyarsk')
         });
 
         let tokyo = new Clock({
-            timeZone: 'Asia/Tokyo',
-            HTML: document.querySelector('.clock-tokyo')
+            timeZone: 'Asia/Vladivostok',
+            HTML: document.querySelector('.clock-khabarowsk')
         });
     }
 
@@ -156,6 +166,12 @@ $(document).ready(function() {
         $('.table-title').on('click', function () {
             let tbody = $(this.closest('tbody')).next()[0];
             $(tbody).toggle();
+        });
+    }
+
+    if($('.park__item').length){
+        $('.park__item').on('click', function(){
+            document.location.href = 'carriageInfo.html';
         });
     }
 });

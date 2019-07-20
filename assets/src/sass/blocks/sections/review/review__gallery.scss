@@ -5,4 +5,7 @@
   &__gallery{
     grid-template-columns: repeat(4, 1fr);
   }
+  &__arrow{
+  	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(359deg) brightness(0%) contrast(109%);
+  }
 }

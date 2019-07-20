@@ -124,6 +124,9 @@
     &.active {
       color: #ffffff;
     }
+    &:hover{
+      background-color: rgb(119, 119, 119);
+    }
     &-prev {
       width: 85px;
       color: #000;

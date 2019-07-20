@@ -84,5 +84,10 @@
 		& p{
 			padding: 15px;
 		}
+
+		& a{
+			text-decoration: none;
+			border-bottom: 1.5px solid white;
+		}
 	}
 }

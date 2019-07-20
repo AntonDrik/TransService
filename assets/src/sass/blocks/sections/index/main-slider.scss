@@ -3,35 +3,6 @@
 
     &__slick {}
 
-    &__prev,
-    &__next{
-         position: absolute;
-         top: 50%;
-         border-radius: 50px;
-         border: 5px solid white;
-         display: block;
-         transform: translate(0,-50%);
-         width: 60px;
-         height: 60px;
-         z-index: 99;
-         background-size: 50%;
-         background-repeat: no-repeat;
-         background-position: center;
-         cursor: pointer;
-         background-color: rgba(255, 255, 255, 0);
-         box-shadow: 0 0 25px rgba(0, 0, 0, 1);
-    }
-
-    &__prev{
-         left: 0;
-         background-image: url('../img/arrow-left.svg');
-    }
-
-    &__next {
-         right: 0;
-         background-image: url('../img/arrow-right.svg');
-    }
-
     &__item {
          padding: 150px 100px;
     }
@@ -42,6 +13,42 @@
     }
     &__btn{}
 }
+
+//-----------slick arrow
+
+.slider__prev,
+.slider__next{
+    position: absolute;
+    top: 50%;
+    border-radius: 50px;
+    border: 5px solid white;
+    display: block;
+    transform: translate(0,-50%);
+    width: 60px;
+    height: 60px;
+    z-index: 99;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 1);
+    &:hover{
+        filter: invert(29%) sepia(161%) saturate(8321%) hue-rotate(22deg) brightness(87%) contrast(125%);
+    }
+}
+
+.slider__prev{
+    left: 0;
+    background-image: url('../img/arrow-left.svg');
+}
+
+.slider__next{
+    right: 0;
+    background-image: url('../img/arrow-right.svg');
+}
+
+//----------------------
 
 //-----------slick dots
   .slick-dots{
