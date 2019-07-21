@@ -15,7 +15,7 @@
 @import "park/park";
 
 .hidden{
-  display: none;
+  display: none !important;
 }
 
 .section-padding{
@@ -37,6 +37,82 @@
       transform: translate(0,-50%);
       background-color: #d61900;
     }
+}
+
+.form{
+
+  &__user-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__user-data,
+  &__mbox{
+    padding-bottom: 40px;
+  }
+
+  &__mbox-label{
+    display: block;
+    position: absolute !important;
+    top: 10px;
+    padding-left: 40px;
+    &:before{
+      top: -5px !important;
+      background-position: -49px -44px;
+    }
+  }
+
+  &__input{
+    padding-left: 40px;
+  }
+
+  &__name{
+    &:before{
+      background-position: -12px -45px;
+    }
+  }
+
+  &__phone{
+    &:before{
+      background-position: -49px -12px;
+    }
+  }
+
+  &__mail{
+    &:before{
+      background-position: -12px -12px;
+    }
+  }
+
+  &__message{
+    width: 100%;
+    height: 160px;
+  }
+
+  &__send{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  &__policy{
+    height: 100%;
+    background-color: rgba(73, 73, 73, 0.74);
+    *{
+      color: #fff;
+      font-family: 'OpenSansRegular';
+    }
+    & p{
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    & a{
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .breadcrumbs{
@@ -157,4 +233,5 @@
 
 .more{
   color: $color-red;
+  padding-left: 5px;
 }

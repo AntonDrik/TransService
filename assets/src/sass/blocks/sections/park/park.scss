@@ -9,8 +9,6 @@
     background-color: #fff;
     border: 1px solid #e0e0e0;
     display: flex;
-    align-items: center;
-    align-content: center;
     cursor: pointer;
   }
   &__img{
@@ -22,6 +20,7 @@
   &__infobox{
     padding-left: 30px;
     padding-right: 10px;
+    padding-top: 40px;
   }
   &__name{
     padding-bottom: 20px;
